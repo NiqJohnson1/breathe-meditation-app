@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  height: 100vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.time-selector,
+.sound-choice,
+.play-button {
+  height: 80%;
+  flex: 1;
+}
+
+.time-selector {
+  background-color: lightblue;
+}
+
+.sound-choice {
+  background-color: lightgreen;
+}
+
+.play-button {
+  background-color: lightcoral;
+}

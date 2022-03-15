@@ -29,3 +29,7 @@
 .play-button {
   background-color: lightcoral;
 }
+
+video {
+  display: none;
+}
